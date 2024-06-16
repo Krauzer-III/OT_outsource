@@ -1,0 +1,30 @@
+ul > .bulist{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+ul > .bulist > img + h4{
+    display: inline-block;
+    align-self: center;
+    margin-left: 10px;
+}
+
+ul > .bulist > img{
+    height: 32px;
+     margin-left: 10px;
+}
+
+div.contacts {
+    margin-top: 16px;
+}
+
+div.contacts > div > div > img {
+    width: 5rem;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
